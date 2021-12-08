@@ -1,2 +1,2 @@
 ### RFKILL
-type rfkilldisabled_prop, property_type;
+system_vendor_config_prop(rfkilldisabled_prop)

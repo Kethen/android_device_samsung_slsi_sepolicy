@@ -1,6 +1,9 @@
 # property.te
 
-type vendor_cbd_prop, property_type;
-type vendor_radio_prop, property_type;
-type vendor_fastcharge_prop, property_type;
-type vendor_wifi_prop, property_type;
+system_public_prop(vendor_cbd_prop)
+system_public_prop(vendor_radio_prop)
+system_public_prop(vendor_fastcharge_prop)
+system_public_prop(vendor_wifi_prop)
+
+# los19 compat
+system_vendor_config_prop(exported_radio_prop)
